@@ -1,0 +1,178 @@
+
+/* Global styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  height: 50px;
+}
+
+.navigation-logo {
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #00b4db;
+}
+.center-heading {
+  text-align: center;
+}
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+}
+
+a {
+color: #800000;
+text-decoration: none;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+header {
+background-color: #800000;
+color: #fff;
+padding: 20px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav li {
+margin-right: 20px;
+}
+
+nav a {
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+
+main {
+margin: 20px;
+}
+
+h3 {
+font-size: 1.2em;
+margin: 10px 0;
+}
+
+p {
+margin: 5px 0;
+}
+
+input[type="number"],
+input[type="submit"],
+select {
+padding: 5px;
+margin-right: 10px;
+}
+
+input[type="submit"] {
+background-color: 3#FFFFFF;
+color: #000000;
+border: none;
+cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+#listings {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.listing {
+	flex-basis: calc(33.33% - 20px);
+	margin: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 10px;
+}
+
+.listing img {
+	height: 200px;
+}
+
+.listing a {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.listing a:hover {
+	background-color: #555;
+}
+.query-box {
+  padding: 15px; 
+  background-color: #d3f2ff; 
+  border: 1px solid #999999; 
+  margin: 10px 0px; 
+  text-align: center;
+}

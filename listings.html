@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Listings</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="listings.css">
+</head>
+<body>
+	<header>
+        <div class="logo-container">
+          <img src="logo.jpg" alt="Logo" class="navigation-logo blur-effect" /> 
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+
+	<main>
+		<section id="search">
+			<form>
+				<label for="property-type">Property Type:</label>
+				<select id="property-type" name="property-type">
+					<option value="">Any</option>
+					<option value="house">House</option>
+					<option value="apartment">Apartment</option>
+					<option value="condo">Condo</option>
+				</select>
+
+				<label for="min-price">Min Price:</label>
+				<input type="number" id="min-price" name="min-price" min="0">
+
+				<label for="max-price">Max Price:</label>
+				<input type="number" id="max-price" name="max-price" min="0">
+
+				<input type="submit" value="Search">
+			</form>
+		</section>
+
+		<section id="listings">
+			<div class="listing">
+				<img src="img/listing/listing1.jpg" alt="Listing 1">
+				<h3>3 Bedroom House</h3>
+				<p>$XXXXXX</p>
+				<a href="#">View Details</a>
+			</div>
+			<div class="listing">
+				<img src="img/listing/listing2.jpg" alt="Listing 2">
+				<h3> 2 Bedroom Apartment</h3>
+				<p>$XXXXXXX</p>
+				<a href="#">View Details</a>
+			</div>
+			<div class="listing">
+				<img src="img/listing/listing3.jpg" alt="Listing 3">
+				<h3>Studio Apartment</h3>
+				<p>$XXXXXXX</p>
+				<a href="#">View Details</a>
+			</div>
+			<div class="listing">
+				<img src="img/listing/listing4.jpg" alt="Listing 4">
+				<h3>5 Bedroom House</h3>
+				<p>$XXXXXXXX</p>
+				<a href="#">View Details</a>
+			</div>
+			<div class="listing">
+				<img src="img/listing/listing5.jpg" alt="Listing 5">
+				<h3>2 Bedroom Apartment</h3>
+				<p>$XXXXXXX</p>
+				<a href="#">View Details</a>
+			</div>
+			<div class="listing">
+				<img src="img/listing/listing1.jpg" alt="Listing 6">
+				<h3>1 Bedroom House</h3>
+				<p>$XXXXXX</p>
+				<a href="#">View Details</a>
+			</div>
+		</section>
+	</main>
+
+    <footer>
+		<p>&copy; 2023 Real Estate Website</p>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="listings.html">Listings</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</footer>
